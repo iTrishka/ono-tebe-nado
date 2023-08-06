@@ -1,10 +1,9 @@
-body {
+.body {
   margin: 0 auto;
   display: flex;
   flex-flow: column nowrap;
   max-width: 1440px;
   font-weight: 400;
-  z-index: -1;
 }
 
 .overlay {
@@ -23,7 +22,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  padding: 92px 50px;
+  padding: 94px 50px;
   align-items: center;
 }
 
@@ -65,8 +64,7 @@ body {
 }
 
 .header__address {
-  display: flex;
-  justify-content: end;
+ justify-self: end;
 }
 
 .adress {
@@ -213,15 +211,15 @@ body {
 }
 
 .card_type_film {
-  background: #000000 url(../images/card-lot-01.jpg) no-repeat center / cover;
+  background: #000 url(../images/card-lot-01.jpg) no-repeat center / cover;
 }
 
 .card_type_book {
-  background: #000000 url(../images/card-lot-02.jpg) no-repeat center / cover;
+  background: #000 url(../images/card-lot-02.jpg) no-repeat center / cover;
 }
 
 .card_type_picture {
-  background: #000000 url(../images/card-lot-03.jpg) no-repeat center / cover;
+  background: #000 url(../images/card-lot-03.jpg) no-repeat center / cover;
 }
 
 .card__title {
@@ -245,7 +243,7 @@ body {
   line-height: normal;
   background: none;
   border: none;
-  margin-left: 34px;
+  margin-left: 35px;
   border-bottom: 1px solid #000;
   cursor: pointer;
 }
